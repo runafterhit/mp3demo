@@ -22,7 +22,7 @@ public class PlayerService extends Service {
     private Handler mHander;
     private MediaPlayer Mplayer = new MediaPlayer();
     private String musicPath = new String();
-    public List<MusicInfo> musiclist = new ArrayList<MusicInfo>();
+    public List<MusicInfo> musiclist = new ArrayList<>();
 
     @Nullable
     @Override
